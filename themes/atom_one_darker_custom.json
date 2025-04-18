@@ -1,5 +1,5 @@
 {
-  "name": "Atom One Darker Contrast",
+  "name": "Atom One Darker Contrast Custom",
   "type": "dark",
   "colors": {
     "sideBar.background": "#21252b",
@@ -23,6 +23,11 @@
     {
       "name": "Other: Keywords",
       "scope": ["keyword"],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
+    },
+    {
+      "name": "Other: Keywords control",
+      "scope": ["keyword.control"],
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {
@@ -44,6 +49,16 @@
       "name": "Other: Character",
       "scope": ["constant.character.entity"],
       "settings": { "fontStyle": "normal", "foreground": "#EC994B" }
+    },
+    {
+      "name": "Other: Escape",
+      "scope": ["constant.character.escape"],
+      "settings": { "fontStyle": "normal", "foreground": "#3fc9a4" }
+    },
+    {
+      "name": "Other: Format specifier",
+      "scope": ["constant.other.placeholder.c"],
+      "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
     },
     {
       "name": "Other: Boolean",
@@ -79,6 +94,11 @@
       "name": "Other: Function name",
       "scope": ["entity.name.function"],
       "settings": { "fontStyle": "normal", "foreground": "#51B1FF" }
+    },
+    {
+      "name": "Other: Function name c",
+      "scope": ["entity.name.function.preprocessor.c"],
+      "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {
       "name": "Other: Support function",
@@ -158,7 +178,7 @@
     {
       "name": "Comment: Comment",
       "scope": ["comment"],
-      "settings": { "fontStyle": "normal", "foreground": "#40454E" }
+      "settings": { "fontStyle": "normal", "foreground": "#6c7687" }
     },
     {
       "name": "SPECIAL: JS Punctuation",

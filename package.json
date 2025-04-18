@@ -1,10 +1,10 @@
 {
-  "name": "vscode-theme-onedarker",
-  "displayName": "Atom One Darker Theme",
-  "description": "Inspired by Atom One Dark but with a higher contrast.",
+  "name": "vscode-theme-onedarker-custom",
+  "displayName": "Atom One Darker Theme Custom",
+  "description": "Inspired by Atom One Darker, but personalised for myself.",
   "icon": "logo.png",
-  "version": "2.1.0",
-  "publisher": "christopherafbjur",
+  "version": "1.0.0",
+  "publisher": "HonzaPudil",
   "engines": {
     "vscode": "^1.43.0"
   },
@@ -23,25 +23,22 @@
     "contrast",
     "high contrast",
     "one dark",
-    "one darker"
+    "one darker",
+    "one darker custom"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Atom One Darker",
+        "label": "Atom One Darker Custom",
         "uiTheme": "vs-dark",
-        "path": "./themes/atom_one_darker_high_contrast.json"
+        "path": "./themes/atom_one_darker_custom.json"
       }
     ]
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/christopherafbjur/vscode-theme-onedarker/issues",
-    "email": "christopher89tech@gmail.com"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/christopherafbjur/vscode-theme-onedarker.git"
+    "url": "https://github.com/HonzaPudil/vscode-theme-onedarker-custom.git"
   },
-  "homepage": "https://github.com/christopherafbjur/vscode-theme-onedarker/blob/master/README.md"
+  "homepage": "https://github.com/HonzaPudil/vscode-theme-onedarker-custom/blob/master/README.md"
 }
