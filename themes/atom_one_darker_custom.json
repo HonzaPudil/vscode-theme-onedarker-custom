@@ -31,6 +31,11 @@
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
     },
     {
+      "name": "Other: Keywords operator logical",
+      "scope": ["keyword.operator.logical"],
+      "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
+    },
+    {
       "name": "Other: Regexp quantifier",
       "scope": ["string.regexp keyword.operator"],
       "settings": { "fontStyle": "normal", "foreground": "#D45FF6" }
@@ -361,6 +366,11 @@
       "name": "SPECIAL: Object member access",
       "scope": ["meta.member.access.python"],
       "settings": { "fontStyle": "normal", "foreground": "#FD4F5C" }
+    },
+    {
+      "name": "SPECIAL: Object member item access arguments",
+      "scope": ["meta.item-access.arguments.python"],
+      "settings": { "fontStyle": "normal", "foreground": "#CACED6" }
     },
     {
       "name": "SPECIAL: Python punctuation",
