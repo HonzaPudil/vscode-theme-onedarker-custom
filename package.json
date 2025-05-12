@@ -3,7 +3,7 @@
   "displayName": "Atom One Darker Theme Custom",
   "description": "Inspired by Atom One Darker, but personalised for myself.",
   "icon": "logo.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "HonzaPudil",
   "engines": {
     "vscode": "^1.43.0"
